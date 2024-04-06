@@ -11,7 +11,7 @@ interface apiProps{
 const UsHolidays = () => {
     const [apiData, setApiData] = useState<apiProps[]>();
     
-    //hek
+    //* start when component render
     useEffect(() => {
         fetchedApiData();
     }, []);
